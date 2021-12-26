@@ -8,7 +8,8 @@ class TypeRicecooker:
   def __init__(self,temperature):
     self.temperature = temperature
     self.temperaturesekarang = self.temperature + 50
-    
+    print('Temperature Ricecooker sekarang = ', self.temperaturesekarang)
+
 class ModernRicecooker: 
   def __init__(self,nama_merk,tuas,mode,temperature):
     Ricecooker.__init__(self,nama_merk,tuas,mode)
@@ -19,4 +20,4 @@ print(YoungMa.nama_merk)
 print(YoungMa.tuas)
 print(YoungMa.mode)
 print(YoungMa.temperature)
-print(YoungMa.temperaturesekarang)
+
